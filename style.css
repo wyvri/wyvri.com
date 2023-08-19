@@ -19,3 +19,9 @@ a {
   font-family: monospace;
   color: cornflowerblue;
 }
+
+footer {
+        color: rgb(245, 2, 237);
+        padding: 10px;
+        font-family: "lucida-console", monospace;
+    }
