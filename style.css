@@ -1,1 +1,21 @@
 
+body {
+margin: 0px;
+}
+
+#header {
+    color: rgb(48, 66, 255);
+    font-family: "Helvetica", sans-serif;
+    font-size: 50px;
+    text-align: center;
+  }
+
+.top {
+    background-color: lavenderblush;
+    padding: 10px
+  }
+
+a {
+  font-family: monospace;
+  color: cornflowerblue;
+}
