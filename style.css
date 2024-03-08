@@ -33,3 +33,8 @@ footer {
           font-family: "lucida-console", monospace;
           line-height: 20px;
         }
+
+img {
+          border: 5px solid cornflowerblue;
+          width: 200px;
+        }
