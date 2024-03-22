@@ -15,7 +15,7 @@ margin: 0px;
     padding: 10px
   }
 
-.links {
+a {
   font-family: monospace;
   color: cornflowerblue;
 }
