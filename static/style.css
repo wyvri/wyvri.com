@@ -1,0 +1,100 @@
+body {
+  margin: 0px;
+  background-color: cornflowerblue;
+}
+
+.all {
+  width: 80%;
+  margin: 0 auto;
+  border-left:10px solid rgb(245, 2, 237);
+  border-right: 10px solid rgb(245, 2, 237);
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: white;
+}
+
+.no-foot {
+  flex: 1;
+}
+
+#header {
+  color: rgb(48, 66, 255);
+  font-family: "Helvetica", sans-serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.top {
+  background-color: lavenderblush;
+  padding: 10px;
+}
+
+.top-nav {
+  background-color: lavenderblush;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: -20px;
+}
+
+footer a {
+  color: inherit;
+  font-family: inherit;
+}
+
+nav a {
+  font-family: monospace;
+  color: cornflowerblue;
+}
+
+a:hover {
+  color:rgb(140, 169, 224)
+}
+
+footer a:hover {
+  color:rgb(214, 77, 210)
+}
+
+footer {
+  color: rgb(245, 2, 237);
+  padding: 10px;
+  font-family: "lucida-console", "courier-new", monospace;
+}
+
+#wyvern {
+  color: rgb(245, 2, 237);
+  padding: 10px;
+  font-family: "lucida-console", "courier-new", monospace;
+  line-height: 20px;
+}
+
+img {
+  border: 5px solid cornflowerblue;
+  width: 200px;
+}
+
+#intro {
+  font-weight: bold;
+}
+
+.artworks {
+  display: flex;
+  flex-flow: wrap;
+  align-items: start;
+}
+
+.artworks img {
+  border: 5px solid cornflowerblue;
+  width: 200px;
+  transition: transform .2s;
+  margin-top: 5px;
+}
+
+.artworks img:hover {
+  transform: scale(1.2);
+}
+
+.artworks p {
+  writing-mode: vertical-rl;
+  margin-top: 5px;
+}
