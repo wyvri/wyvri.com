@@ -45,10 +45,17 @@ footer a {
 nav a {
   font-family: monospace;
   color: cornflowerblue;
+  border: 5px solid white;
+  background-color: white;
+  border-radius: 20px;
+  padding: 2.5px;
+  text-decoration: none;
 }
 
 a:hover {
-  color:rgb(140, 169, 224)
+  color:rgb(140, 169, 224);
+  border-color: rgb(225, 237, 255);
+  background-color: rgb(225, 237, 255);
 }
 
 footer a:hover {
