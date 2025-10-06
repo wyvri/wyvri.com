@@ -7,23 +7,48 @@
 @property --header-text-color {
   syntax: "<color>";
   inherits: false;
-  initial-value: #13ffac;
+  initial-value: #4e7aff;
+}
+
+@property --inner-border-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #ff358c;
+}
+
+@property --header-bg-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #7dffc9;
+}
+
+@property --img-border-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #2b60ff;
+}
+
+@property --text-color {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: #e375ff;
 }
 
 body {
   margin: 0px;
   background-color: var(--border-color);
+  box-sizing: border-box;
 }
 
 .all {
   width: 80%;
   margin: 0 auto;
-  border-left:10px solid rgb(245, 2, 237);
-  border-right: 10px solid rgb(245, 2, 237);
+  border-left:10px solid var(--inner-border-color);
+  border-right: 10px solid var(--inner-border-color);
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 .no-foot {
@@ -38,12 +63,12 @@ body {
 }
 
 .top {
-  background-color: lavenderblush;
+  background-color: var(--header-bg-color);
   padding: 10px;
 }
 
 .top-nav {
-  background-color: lavenderblush;
+  background-color: var(--header-bg-color);
   padding: 10px;
   padding-bottom: 0px;
   margin-bottom: -20px;
@@ -56,39 +81,40 @@ footer a {
 
 nav a {
   font-family: monospace;
-  color: var(--border-color);
+  color: var(--img-border-color);
   border: 5px solid white;
   background-color: white;
   border-radius: 20px;
   padding: 2.5px;
   text-decoration: none;
+  display: inline-block;
 }
 
 a:hover {
-  color:rgb(140, 169, 224);
-  border-color: rgb(225, 237, 255);
-  background-color: rgb(225, 237, 255);
+  color:#22b8f8;
+  border-color: #c7ffee;
+  background-color: #c7ffee;
 }
 
 footer a:hover {
-  color:rgb(214, 77, 210)
+  color:var(--text-color);
 }
 
 footer {
-  color: rgb(245, 2, 237);
+  color: var(--text-color);
   padding: 10px;
   font-family: "lucida-console", "courier-new", monospace;
 }
 
 #wyvern {
-  color: rgb(245, 2, 237);
+  color: var(--text-color);
   padding: 10px;
   font-family: "lucida-console", "courier-new", monospace;
   line-height: 20px;
 }
 
 img {
-  border: 5px solid var(--border-color);
+  border: 5px solid var(--img-border-color);
   width: 200px;
 }
 
@@ -103,7 +129,7 @@ img {
 }
 
 .artworks img {
-  border: 5px solid var(--border-color);
+  border: 5px solid var(--img-border-color);
   width: 200px;
   transition: transform .2s;
   margin-top: 5px;
