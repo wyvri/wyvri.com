@@ -40,6 +40,40 @@ body {
   box-sizing: border-box;
 }
 
+.gallery-nav {
+  color: var(--text-color);
+  padding-left: 5px;
+  padding-top: 5px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 12px;
+}
+
+.gallery-nav a {
+  color:#e375ff;
+}
+
+.gallery-nav a:hover {
+  color:#7032ff;
+  background-color: white;
+}
+
+.gallery-header-2 {
+  color: var(--text-color);
+  padding-left: 5px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-family: helvetica;
+  font-size: 30px;
+}
+
+hr.solid {
+  border-top: 2px solid var(--border-color);
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .all {
   width: 80%;
   margin: 0 auto;
