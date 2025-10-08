@@ -204,3 +204,17 @@ img {
   writing-mode: vertical-rl;
   margin-top: 5px;
 }
+
+.gallery-p {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.gallery-p a {
+  color:#e375ff
+}
+
+.gallery-p a:hover {
+  color:#7032ff;
+  background-color: white;
+}
