@@ -37,6 +37,7 @@
 body {
   margin: 0px;
   background-color: var(--border-color);
+  background-image: url("youtubebanner.png");
   box-sizing: border-box;
   font-family: "lucida-console", "courier-new", monospace;
   color: var(--text-color);
