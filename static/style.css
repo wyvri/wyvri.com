@@ -13,7 +13,7 @@
 @property --inner-border-color {
   syntax: "<color>";
   inherits: false;
-  initial-value: #ff358c;
+  initial-value: #ff328b;
 }
 
 @property --header-bg-color {
@@ -98,7 +98,7 @@ hr.solid {
   border-radius: 20px;
   border: 5px solid var(--header-bg-color);
   font-family: "lucida-console", "courier-new", monospace;
-  color: var(--border-color);
+  color: var(--header-text-color);
 }
 
 .all {
