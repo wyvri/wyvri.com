@@ -218,3 +218,11 @@ img {
   color:#7032ff;
   background-color: white;
 }
+
+.centered-text {
+  text-align: center;
+}
+
+p a {
+  color: var(--text-color);
+}
