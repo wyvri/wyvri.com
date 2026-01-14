@@ -103,6 +103,13 @@ hr.solid {
   color: var(--header-text-color);
 }
 
+.chapter-btns button:hover {
+  background-color:#13dcff;
+  border: 5px solid #13dcff;
+  color:#2242f8;
+  text-decoration:underline;
+}
+
 .all {
   width: 80%;
   margin: 0 auto;
