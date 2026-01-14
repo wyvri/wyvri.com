@@ -226,3 +226,8 @@ img {
 p a {
   color: var(--text-color);
 }
+
+p a:hover {
+  color:#cc02ff;
+  background-color:#b8eaff;
+}
