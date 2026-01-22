@@ -71,6 +71,19 @@ body {
   font-size: 30px;
 }
 
+.gallery-header-3 {
+  color: var(--text-color);
+  padding-left: 5px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  font-family: helvetica;
+  font-size: 22.5px;
+}
+
+.gallery-header-3 a {
+  color: var(--text-color);
+}
+
 hr.solid {
   border-top: 2px solid var(--border-color);
   margin-left: 5px;
@@ -88,6 +101,14 @@ hr.solid {
   padding-right: 5px;
 }
 
+.poem-text {
+  padding-left: 10px;
+}
+
+#poem-commentary {
+  font-size: 12.5px;
+}
+
 .chapter-btns {
   margin-left: 5px;
   margin-right: 5px;
@@ -96,12 +117,13 @@ hr.solid {
   justify-content: space-between;
 }
 
-.chapter-btns button {
+.chapter-btns a {
   background-color: var(--header-bg-color);
   border-radius: 20px;
   border: 5px solid var(--header-bg-color);
   font-family: "lucida-console", "courier-new", monospace;
   color: var(--header-text-color);
+  font-size: 15px;
 }
 
 .chapter-btns button:hover {
@@ -218,10 +240,11 @@ img {
 .gallery-p {
   padding-left: 5px;
   padding-right: 5px;
+  font-size: 15px;
 }
 
 .gallery-p a {
-  color:#e375ff
+  color:#e375ff;
 }
 
 .gallery-p a:hover {
